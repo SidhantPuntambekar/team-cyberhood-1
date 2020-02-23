@@ -25,7 +25,7 @@ def change_keys(obj, convert):
         return obj
     return new
 
-client = MongoClient('mongodb+srv://EarlPotters:cyberhood12345@hackcu-cyberhood-kismet-data-phlpm.gcp.mongodb.net/test?retryWrites=true&w=majority')
+client = MongoClient('mongodb+srv://EarlPotters:12345@hackcu-cyberhood-kismet-data-phlpm.gcp.mongodb.net/test?retryWrites=true&w=majority')
 
 db = client.get_database('cyberhood')
 
