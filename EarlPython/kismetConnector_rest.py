@@ -53,7 +53,7 @@ user = db.user
 for device in get_device_json_generator():
     formated_device = change_keys(device, convert)
     user.insert_one(formated_device)
-    break 
+    #break 
 
 
 
