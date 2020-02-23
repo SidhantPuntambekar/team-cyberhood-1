@@ -1,0 +1,39 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.head {
+    position: absolute;
+    width: 100%;
+    background-color:black;
+    padding: 5px 20px;
+}
+#logo {
+    float: left;
+    height: 100px;
+    border-radius: 10000px;
+}
+h1 {
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    margin: 20px;
+}
+
+.mainbtn {
+    float: right;
+    background-color: black;
+    color: white;
+    width: 100px;
+    transition: all 250ms;
+    border: none;
+    height: 100px;
+}
+
+.mainbtn:hover {
+    background-color: white;
+    color: black;
+}
