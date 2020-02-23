@@ -11,5 +11,5 @@ scanBtn.addEventListener("click", function () {
 })
 
 anaBtn.addEventListener("click", function () {
-    alert("Analyse button has been clicked!");
+    alert("Analyze button has been clicked!");
 })
