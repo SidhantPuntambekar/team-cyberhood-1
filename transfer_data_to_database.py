@@ -1,3 +1,5 @@
+#JSON to BSON converter
+
 import json
 from bson import BSON
 
