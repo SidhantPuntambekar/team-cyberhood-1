@@ -8,7 +8,7 @@ class analyze_data:
 		self.df = dataframe
 
 	def analyze_data(self):
-		pass
+		return self.df
 
 	def set_df(self, dataframe):
 		self.df = dataframe
