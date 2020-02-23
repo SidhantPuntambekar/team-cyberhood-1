@@ -27,7 +27,16 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     color:white;
-    margin: 20px;
+    margin: 5px 10px;
+}
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 5px 10px;
+    display: flex;
+    position: absolute;
+    margin-left: 110px;
 }
 
 .mainbtn {
@@ -38,6 +47,7 @@ h1 {
     transition: all 250ms;
     border: none;
     height: 100px;
+    line-height: 75px;
 }
 
 .mainbtn:hover {
