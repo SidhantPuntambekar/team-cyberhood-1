@@ -2,7 +2,7 @@
 
 __Team Cyberhood: A project by Kieran Zylstra, Earl Potters, Sidhant Puntambekar, and Arjun Laksmi Narasiman__
 
-__Description:__ This is a wifi sniffing program and is a proof of concept. Ideally the kismet script would be run on something like a raspberry pi that just sends all of its data to a mongo db from which a google cloud service runs analysis on the data and displays that data on a web server. In this version we have the script that is run on a local computer which pipes that data to the mongo db. From there we display charts from mongo db atlas to a website hosted at https://github.com/sidhantpuntambekar/sidhantpuntambekar.github.io/page/index.html . We also utilized mongo db compass to display the data in a more informative way
+__Description:__ This is a wifi sniffing program and is a proof of concept. Ideally the kismet script would be run on something like a raspberry pi that just sends all of its data to a mongo db from which a google cloud service runs analysis on the data and displays that data on a web server. In this version we have the script that is run on a local computer which pipes that data to the mongo db. From there we display charts from mongo db atlas to a website hosted at https://sidhantpuntambekar.github.io/page/index.html . We also utilized mongo db compass to display the data in a more informative way
 
 ### kismet\_python
 - Contains the kismet script that runs and pushes to database constantly
