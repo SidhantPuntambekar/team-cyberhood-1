@@ -62,6 +62,13 @@ h2 {
     background-color: white;
     width: 90%;
     height: 900px;
+    color: #404040;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.content h3 {
+    margin-bottom: 20px;
 }
 
 .footer {
@@ -70,4 +77,7 @@ h2 {
     width: 90%;
     text-align: center;
     padding: 30px;
+}
+.col-sm-6 {
+    margin: 0 auto;
 }
